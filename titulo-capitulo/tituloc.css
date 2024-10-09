@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "source_sans_pro";
+    src: url("../fonts/SourceSansPro-Light.otf.woff2") format("woff2"), url("../fonts/SourceSansPro-Light.otf.woff") format("woff");
+    font-weight: 300;
+    font-style: normal
+}
+
+article h1 span {
+    display: block;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-size: .6em;
+    font-weight: 300;
+    color: #000;
+    font-family: "source_sans_pro", sans-serif;
+    letter-spacing: 1px;
+}
+article div, article blockquote, article li, article span, article figcaption, article dd, article dt {
+    font-family: "source_serif_pro", serif;
+    line-height: 180%;
+    max-width: 730px;
+}

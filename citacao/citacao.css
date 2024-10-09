@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "source_serif_pro";
+    src: url("../fonts/sourceserifpro-bold-webfont.woff2") format("woff2"), url("../fonts/sourceserifpro-bold-webfont.woff") format("woff");
+    font-weight: 700;
+    font-style: normal
+}
+@font-face {
+    font-family: "source_serif_pro";
+    src: url("../fonts/sourceserifpro-boldit-webfont.woff2") format("woff2"), url("../fonts/sourceserifpro-boldit-webfont.woff") format("woff");
+    font-weight: 700;
+    font-style: italic
+}
+@font-face {
+    font-family: "source_serif_pro";
+    src: url("../fonts/sourceserifpro-regular-webfont.woff2") format("woff2"), url("../fonts/sourceserifpro-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+
+blockquote{
+    color: #6f0087;
+    text-align: right;
+}
+
+article blockquote {
+    margin: 3rem 0;
+    margin-left: 3rem;
+}
+
+p{
+    font-size: 1em;
+    line-height: 180%;
+    font-family: "source_serif_pro", serif;
+    max-width: 730px
+}
